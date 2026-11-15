@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.charlifry97.GuionStudio</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <name>GuionStudio</name>
+  <summary>Escribe, estructura y exporta guiones audiovisuales</summary>
+
+  <developer id="io.github.charlifry97">
+    <name>Carlos A. Rguez Padrón</name>
+  </developer>
+
+  <description>
+    <p>GuionStudio es un espacio de trabajo para escribir guiones audiovisuales, organizar actos, secuencias y escenas, y mantener a mano la información de personajes y locaciones.</p>
+    <p>Su editor reconoce la estructura del guion y permite navegar por sus elementos desde un panel lateral. También ofrece herramientas de formato y exportación.</p>
+    <p>Características principales:</p>
+    <ul>
+      <li>Formateo en vivo de actos, secuencias, escenas, personajes, diálogos, acotaciones y transiciones.</li>
+      <li>Panel de estructura con navegación directa a cada escena.</li>
+      <li>Escaleta automática generada a partir de los encabezados de escena.</li>
+      <li>Memoria de la historia: personajes y locaciones detectados automáticamente.</li>
+      <li>Fichas de desarrollo: argumento, sinopsis, storyline y logline.</li>
+      <li>Resaltado de texto por categorías con paleta de colores.</li>
+      <li>Exportación a Word (.docx), PDF y texto plano.</li>
+      <li>Atajos de teclado personalizables.</li>
+    </ul>
+  </description>
+
+  <url type="homepage">https://github.com/charlifry97/GuionStudio</url>
+
+  <launchable type="desktop-id">io.github.charlifry97.GuionStudio.desktop</launchable>
+
+  <provides>
+    <binary>guionstudio</binary>
+  </provides>
+
+  <categories>
+    <category>Office</category>
+    <category>WordProcessor</category>
+  </categories>
+
+  <keywords>
+    <keyword>guion</keyword>
+    <keyword>guionismo</keyword>
+    <keyword>screenplay</keyword>
+    <keyword>escritura</keyword>
+    <keyword>writing</keyword>
+    <keyword>cine</keyword>
+    <keyword>film</keyword>
+    <keyword>television</keyword>
+    <keyword>teatro</keyword>
+    <keyword>theatre</keyword>
+    <keyword>fountain</keyword>
+  </keywords>
+
+  <content_rating type="oars-1.1"/>
+
+  <branding>
+    <color type="primary" scheme_preference="light">#142b50</color>
+    <color type="primary" scheme_preference="dark">#142b50</color>
+  </branding>
+
+  <screenshots>
+    <screenshot type="default">
+      <caption>Editor de guion con formateo en vivo</caption>
+      <image type="source">https://raw.githubusercontent.com/charlifry97/GuionStudio/main/data/screenshots/editor.png</image>
+    </screenshot>
+  </screenshots>
+
+  <releases>
+    <release version="1.4.1" date="2026-11-14">
+      <description>
+        <p>Botones de cabecera e icono de Inicio visibles en cualquier tema, título del proyecto editable y exportación del espacio de la historia a Word (.docx).</p>
+      </description>
+    </release>
+    <release version="1.4.0" date="2026-11-14">
+      <description>
+        <p>Corrige la pantalla de inicio, convierte el desarrollo de la historia en un espacio de trabajo propio y soluciona varios fallos que bloqueaban o dañaban el texto al escribir.</p>
+      </description>
+    </release>
+    <release version="1.3.1" date="2026-11-14">
+      <description>
+        <p>Incorpora una pantalla de inicio con identidad visual propia, accesos directos a las tareas principales y una lista persistente de proyectos recientes.</p>
+      </description>
+    </release>
+    <release version="1.2" date="2026-11-14">
+      <description>
+        <p>Renueva la interfaz con iconos y emojis, incorpora acceso directo al desarrollo narrativo y aplica transparencias del 50 por ciento a los resaltados y sugerencias para mejorar la lectura.</p>
+      </description>
+    </release>
+    <release version="1.1" date="2026-11-14">
+      <description>
+        <p>Incorpora fichas de argumento, sinopsis, storyline y logline; resaltado de texto por categorías y colores; filtros de lectura por categoría; y un editor de atajos de teclado.</p>
+      </description>
+    </release>
+    <release version="1.0" date="2026-11-14">
+      <description><p>Primera versión distribuible con organización estructural del guion.</p></description>
+    </release>
+  </releases>
+</component>
